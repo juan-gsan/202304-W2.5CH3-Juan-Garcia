@@ -1,0 +1,12 @@
+{
+  "name": "202304-w2.5ch3-juan-garcia",
+  "version": "1.0.0",
+  "description": "The variables start and end are given. Return an array with the contents of the individual numbers. Replace all numbers divisible by three with \"Fizz\" and all numbers divisible by five with \"Buzz\". If a number is divisible by five and three replace it by \"FizzBuzz\".",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
