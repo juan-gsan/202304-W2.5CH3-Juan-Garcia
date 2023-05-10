@@ -40,4 +40,16 @@ describe("Given a function fizzBuzz", () => {
       expect(actualOutput).toStrictEqual(expectedOutput);
     });
   });
+
+  describe("When it receives Infinity and 0", () => {
+    test("Then it should return []", () => {
+      const startNumber = Infinity;
+      const endNumber = 0;
+      const expectedOutput: any[] = [];
+
+      const actualOutput = fizzBuzz(startNumber, endNumber);
+
+      expect(actualOutput).toStrictEqual(expectedOutput);
+    });
+  });
 });
