@@ -26,7 +26,7 @@
 }
 
 .main__section {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .main__text {
@@ -44,5 +44,26 @@
 
 .main__text--large {
   font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.main__button {
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-top: 3rem;
+}
+
+.bottom {
+  border: 2px solid teal;
+  border-radius: 10px;
+}
+
+.bottom__text {
+  font-size: 1rem;
   font-weight: bold;
 }
