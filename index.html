@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/honey-gb31bc725d_640.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <script src="index.js" type="module"></script>
+  <script src="createSolution.js" type="module"></script>
+  <script src="fizzbuzz.js" type="module"></script>
+  <title>FizzBuzz</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header__title">FizzBuzz</h1>
+    <ul>
+      <li>
+        <p class="header__text">Multiples of 3 turn to... Fizz</p>
+      </li>
+      <li>
+        <p class="header__text">Multiples of 5 switch to... Fizz</p>
+      </li>
+      <li>
+        <p class="header__text header__text--bottom">Multiples of both 3 and 5 swap to... FizzBuzz</p>
+      </li>
+    </ul>
+  </header>
+  <main class="main">
+    <section class="main__section">
+      <form action="">
+        <h2 class="main__text">Insert two numbers: </h2>
+        <label class="main__input main__input--label" for="start">Where to start?
+          <input class="main__input" type="text" name="start" id="start">
+        </label>
+        <label class="main__input main__input--label" for="end">When you want to stop counting?
+          <input class="main__input" type="text" name="end" id="end">
+        </label>
+        <button class="main__button" type="submit">Send</button>
+      </form>
+    </section>
+    <section class="main__section">
+      <h2 class="main__text main__text--large">Your array is...</h2>
+    </section>
+  </main>
+</body>
+
+</html>

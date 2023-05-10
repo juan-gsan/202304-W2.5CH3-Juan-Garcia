@@ -1,0 +1,69 @@
+@use "./reset";
+@use "./global";
+@import "./responsive";
+
+.header {
+  text-align: center;
+}
+
+.header__title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 2rem;
+}
+
+.header__text {
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.header__text--bottom {
+  margin-bottom: 2rem;
+}
+
+.main {
+  text-align: center;
+}
+
+.main__section {
+  margin-bottom: 2rem;
+}
+
+.main__text {
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.main__input {
+  padding: 0.3rem;
+}
+
+.main__input--label {
+  font-size: 1rem;
+}
+
+.main__text--large {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.main__button {
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-top: 3rem;
+}
+
+.bottom {
+  border: 2px solid teal;
+  border-radius: 10px;
+}
+
+.bottom__text {
+  font-size: 1rem;
+  font-weight: bold;
+}

@@ -1,0 +1,212 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  min-width: 320px;
+}
+
+.header {
+  text-align: center;
+}
+
+.header__title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 2rem;
+}
+
+.header__text {
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.header__text--bottom {
+  margin-bottom: 2rem;
+}
+
+.main {
+  text-align: center;
+}
+
+.main__section {
+  margin-bottom: 2rem;
+}
+
+.main__text {
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.main__input {
+  padding: 0.3rem;
+}
+
+.main__input--label {
+  font-size: 1rem;
+}
+
+.main__text--large {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.main__button {
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-top: 3rem;
+}
+
+.bottom {
+  border: 2px solid teal;
+  border-radius: 10px;
+}
+
+.bottom__text {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=styles.css.map */
