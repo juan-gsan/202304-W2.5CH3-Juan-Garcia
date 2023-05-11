@@ -1,4 +1,3 @@
-import exp from "constants";
 import { fizzBuzz } from "./fizzbuzz.js";
 
 describe("Given a function fizzBuzz", () => {

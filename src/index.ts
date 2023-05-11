@@ -1,1 +1,3 @@
-import { fizzBuzz } from "./fizzbuzz.js";
+import { createFooter } from "./createSolution.js";
+
+createFooter();
